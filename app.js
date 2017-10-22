@@ -38,3 +38,17 @@ function sayMyName(name) {
 }
 
 sayMyName("Brian");
+
+// this is solving part 5 of the assignment
+
+function whichDoor(doorNumber){
+  if(doorNumber===1){
+    return alert("you just won a dog");
+  } else if(doorNumber===2){
+    return alert("you just won a cat");
+  } if(doorNumber===3){
+    return alert("YOU JUST GOT A WHAMMY. YOU LOSE");
+  }
+}
+
+whichDoor(3);
