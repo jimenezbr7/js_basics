@@ -17,3 +17,15 @@ var things = [hobbies, favBands]
 
 console.log(things [0][0]);
 console.log(things [1][2]);
+
+// this is solving part 3 of the assignment
+
+function whatsThisNumber(number) {
+  if (number<100) {
+    return alert("your number is less than 100!");
+  } else {
+    return alert("your number is " + number + " and is greater than 100");
+  }
+}
+
+whatsThisNumber(222);
