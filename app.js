@@ -29,3 +29,12 @@ function whatsThisNumber(number) {
 }
 
 whatsThisNumber(222);
+
+// this is solving part 4 of the assignment
+
+
+function sayMyName(name) {
+  return alert(name);
+}
+
+sayMyName("Brian");
