@@ -10,3 +10,10 @@ var string2 = "how's it going"
 console.log(string1 + " " + string2);
 
 // this is solving part 2 of the assignment
+
+var hobbies = ["watching footie", "reading books", "going to shows"]
+var favBands = ["Brand New", "Daughter", "Phosphorescent"]
+var things = [hobbies, favBands]
+
+console.log(things [0][0]);
+console.log(things [1][2]);
